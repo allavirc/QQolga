@@ -1,0 +1,224 @@
+.fade-enter-active[data-v-52071cc5],
+.fade-leave-active[data-v-52071cc5] {
+  transition: opacity .2s
+}
+
+.fade-enter[data-v-52071cc5],
+.fade-leave-to[data-v-52071cc5] {
+  opacity: 0
+}
+
+.card[data-v-bd9f4bc0] {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  border-radius: .5rem;
+  box-shadow: 0 6px 12px -2px #32325d40, 0 3px 7px -3px #0000004d
+}
+
+.card--md[data-v-bd9f4bc0] {
+  align-items: center;
+  display: flex;
+  padding: .625rem 1rem
+}
+
+.solution-icon[data-v-8304d718] {
+  --tw-bg-opacity: 1;
+  --tw-border-opacity: .5019607843137255;
+  align-items: center;
+  background-color: rgba(251, 251, 251, var(--tw-bg-opacity));
+  border-color: rgba(139, 139, 139, var(--tw-border-opacity));
+  border-radius: .75rem;
+  border-width: 1px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  transition-duration: .15s;
+  transition-duration: .3s;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1)
+}
+
+.solution-icon[data-v-8304d718]:hover {
+  --tw-bg-opacity: 1;
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0/.1), 0 1px 2px -1px rgb(0 0 0/.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-translate-z: 0;
+  --tw-rotate: 0;
+  --tw-rotate-x: 0;
+  --tw-rotate-y: 0;
+  --tw-rotate-z: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-scale-z: 1;
+  --tw-scale-x: 1.2;
+  --tw-scale-y: 1.2;
+  --tw-scale-z: 1.2;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  border-style: none;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+  transform: translate(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z)) rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotate(var(--tw-rotate-z)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z))
+}
+
+.solution-icon--sm[data-v-8304d718] {
+  height: 3.125rem;
+  width: 3.125rem
+}
+
+.solution-icon--sm svg[data-v-8304d718] {
+  height: 1.75rem;
+  width: 1.75rem
+}
+
+.solution-icon--lg[data-v-8304d718] {
+  height: 4.5rem;
+  width: 4.5rem
+}
+
+@media (min-width:1280px) {
+  .solution-icon--lg[data-v-8304d718] {
+    height: 5.5rem;
+    width: 5.5rem
+  }
+}
+
+.solution-icon--lg .title-element[data-v-8304d718] {
+  font-size: 8px;
+  line-height: 1
+}
+
+@media (min-width:1280px) {
+  .solution-icon--lg .title-element[data-v-8304d718] {
+    font-size: 11px;
+    line-height: 1
+  }
+}
+
+.solution-icon--lg svg[data-v-8304d718] {
+  height: 2.5rem;
+  width: 2.5rem
+}
+
+@media (min-width:1280px) {
+  .solution-icon--lg svg[data-v-8304d718] {
+    height: 3.125rem;
+    width: 3.125rem
+  }
+}
+
+.solution-control__image {
+  box-shadow: 0 29.8618px 59.7236px -11.9447px #32325d40, 0 17.9171px 35.8342px -17.9171px #0000004d, inset 0 .597236px .597236px #ffffff1a
+}
+
+.active-panel {
+  --tw-bg-opacity: 1;
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0/.1), 0 1px 2px -1px rgb(0 0 0/.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-translate-z: 0;
+  --tw-rotate: 0;
+  --tw-rotate-x: 0;
+  --tw-rotate-y: 0;
+  --tw-rotate-z: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-scale-z: 1;
+  --tw-scale-x: 1.2;
+  --tw-scale-y: 1.2;
+  --tw-scale-z: 1.2;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  border-style: none;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+  transform: translate(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z)) rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotate(var(--tw-rotate-z)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z))
+}
+
+.active-panel .icon {
+  display: none
+}
+
+.active-panel .icon-color {
+  display: block
+}
+
+.active-panel .title-element {
+  display: block;
+  font-size: 11px;
+  line-height: 1
+}
+
+.move {
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-translate-z: 0;
+  --tw-rotate: 0;
+  --tw-rotate-x: 0;
+  --tw-rotate-y: 0;
+  --tw-rotate-z: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-scale-z: 1;
+  animation: move 3s ease-in-out infinite;
+  position: absolute;
+  right: 9rem;
+  top: 22rem;
+  transform: translate(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z)) rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotate(var(--tw-rotate-z)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z));
+  transition-delay: .3s;
+  transition: transform 3s;
+  width: 2rem
+}
+
+.vertical-line {
+  height: 16rem;
+  position: absolute;
+  right: 9.75rem;
+  top: 8.875rem
+}
+
+@media (min-width:640px) {
+  .vertical-line {
+    right: 9.875rem
+  }
+}
+
+.vertical-line .path {
+  stroke-dasharray: 0;
+  animation: dash 3s ease-in-out infinite
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 0 270
+  }
+
+  to {
+    stroke-dasharray: 270 0
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0)
+  }
+
+  to {
+    transform: translateY(-15rem)
+  }
+}
+
+.custom-shadow {
+  box-shadow: 0 0 10px 7px #4b970f33
+}

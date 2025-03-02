@@ -1,0 +1,17 @@
+.brick-link[data-v-81518378] {
+  border-radius: .5rem !important;
+  box-shadow: 0 3px 7px -3px #0000004d;
+  height: 3rem !important
+}
+
+.carousel__slide[data-v-3c7fe662] {
+  padding: 0 20px
+}
+
+.carousel__slide[data-v-3c7fe662]:nth-child(odd) {
+  margin-bottom: 150px
+}
+
+.block[data-v-791dc8a1] {
+  box-shadow: 0 4px 8px #5f5f5f40
+}

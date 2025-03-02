@@ -23,13 +23,51 @@ from .models import Post
 from apps.core.forms import PostForm
 from django.views.generic.edit import CreateView
 from django.views.generic import ListView
+from rest_framework import viewsets, permissions
+from .models import Post
+from .serializers import PostSerializer
+from rest_framework.response import Response
+from rest_framework.renderers import JSONRenderer, TemplateHTMLRenderer
 
+class PostViewSet(viewsets.ModelViewSet):
+    """
+    ViewSet для управления объявлениями (Post).
+    Поддерживает HTML и JSON-ответы.
+    """
+    queryset = Post.objects.all().order_by('-date_created')
+    serializer_class = PostSerializer
+    permission_classes = [permissions.AllowAny]  # Доступ открыт всем (можно изменить)
+    renderer_classes = [JSONRenderer, TemplateHTMLRenderer]
 
-class ViewPostListView(ListView):
-    model = Post
-    template_name = "core/view_posts.html"
-    context_object_name = "posts"
-    ordering = ['-date_created']
+    def list(self, request):
+        """Обработчик GET-запроса для списка объявлений"""
+        queryset = self.get_queryset()
+        serializer = self.get_serializer(queryset, many=True)
+
+        if request.accepted_renderer.format == 'html':
+            return Response({'posts': queryset}, template_name='core/view_posts.html')
+
+        return Response(serializer.data)
+
+    def retrieve(self, request, pk=None):
+        """Обработчик GET-запроса для одного объявления"""
+        post = self.get_object()
+        serializer = self.get_serializer(post)
+
+        if request.accepted_renderer.format == 'html':
+            return Response({'post': post}, template_name='core/post_detail.html')
+
+        return Response(serializer.data)
+
+    def perform_create(self, serializer):
+        """Присваиваем текущего пользователя в качестве владельца"""
+        serializer.save(owner=self.request.user)
+
+# class ViewPostListView(ListView):
+#     model = Post
+#     template_name = "core/view_posts.html"
+#     context_object_name = "posts"
+#     ordering = ['-date_created']
 
 
 class CreatePostView(CreateView):

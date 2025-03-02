@@ -1,0 +1,10 @@
+input[data-v-01c8d155]:-webkit-autofill,
+input[data-v-01c8d155]:-webkit-autofill:active,
+input[data-v-01c8d155]:-webkit-autofill:focus,
+input[data-v-01c8d155]:-webkit-autofill:hover {
+  -webkit-box-shadow: inset 0 0 0 30px #edca00 !important
+}
+
+input[data-v-01c8d155]:-webkit-autofill {
+  -webkit-text-fill-color: #fff !important
+}

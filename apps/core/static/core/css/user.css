@@ -1,0 +1,65 @@
+.base-heading--h1 {
+  --tw-text-opacity: 1;
+  color: rgba(237, 202, 0, var(--tw-text-opacity));
+  font-size: 32px;
+  line-height: 1;
+  line-height: 32px
+}
+
+@media (min-width:640px) {
+  .base-heading--h1 {
+    font-size: 54px;
+    line-height: 1;
+    line-height: 3.25rem
+  }
+}
+
+@media (min-width:1024px) {
+  .base-heading--h1 {
+    font-size: 64px;
+    line-height: 1;
+    line-height: 4rem
+  }
+}
+
+.base-heading--h2 {
+  font-size: 1.5rem;
+  line-height: 2rem
+}
+
+@media (min-width:640px) {
+  .base-heading--h2 {
+    font-size: 40px;
+    line-height: 1;
+    line-height: 3.5rem
+  }
+}
+
+.base-heading--h3 {
+  font-size: 1.5rem;
+  line-height: 2rem
+}
+
+@media (min-width:640px) {
+  .base-heading--h3 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    line-height: 3rem
+  }
+}
+
+.base-heading--h4 {
+  --tw-text-opacity: 1;
+  color: rgba(237, 202, 0, var(--tw-text-opacity));
+  font-size: 24px;
+  line-height: 1;
+  line-height: 3rem
+}
+
+.base-heading--bold {
+  font-weight: 700
+}
+
+.base-heading--normal {
+  font-weight: 400
+}
